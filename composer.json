@@ -1,0 +1,21 @@
+{
+    "name": "smichaelsen/saas-bundle",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Sebastian Michaelsen",
+            "email": "sebastian@michaelsen.io"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "payum/offline": "^1.5",
+        "payum/payum-bundle": "^2.3",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Smichaelsen\\SaasBundle\\": "src/"
+        },
+    }
+}
