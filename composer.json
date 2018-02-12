@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Smichaelsen\\SaasBundle\\": "src/"
+            "Smichaelsen\\SaasBundle\\": ""
         }
     }
 }
